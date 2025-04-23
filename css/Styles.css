@@ -1,0 +1,311 @@
+/* ========== ESTILOS GENERALES ========== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  .section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* ========== HEADER Y NAVEGACIÓN ========== */
+header {
+    background-color: #202020;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #202020;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ========== SECCIÓN HERO ========== */
+    .hero {
+        position: relative;
+        height: 75vh;
+        overflow: hidden;
+      }
+      
+      .hero-image {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: 0;
+      }
+      
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+        padding: 2rem;
+        border-radius: 10px;
+      }
+      
+      .hero-text h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: white;
+      }  
+  /* ========== BOTONES ========== */
+  .btn,
+  button {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover,
+  button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* ========== FORMULARIOS ========== */
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  /* ========== TARJETAS DE SERVICIOS ========== */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1rem;
+  }
+/* Nueva clase para separar las filas de tarjetas */
+.cards-bottom {
+    margin-top: 4rem;
+  }
+  
+  /* Animación para tarjetas */
+  .card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  /* Diferente delay para cada tarjeta (si querés aplicar en HTML con clase adicional) */
+  .card:nth-child(1) {
+    animation-delay: 1s;
+  }
+  .card:nth-child(2) {
+    animation-delay: 1s;
+  }
+  .card:nth-child(3) {
+    animation-delay: 1s;
+  }
+  .card:nth-child(4) {
+    animation-delay: 1s;
+  }
+  .card:nth-child(5) {
+    animation-delay: 1s;
+  }
+  .card:nth-child(6) {
+    animation-delay: 1s;
+  }
+  
+  /* Keyframes para la animación */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* ========== SECCIÓN ¿POR QUÉ ELEGIRNOS? ========== */
+  .porque {
+    background-color: #eef2f3;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #202020;
+    color: white;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .footer-col {
+    flex: 1 1 300px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 1rem;
+    color: #f39c12;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-col a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-contenedor {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-col iframe {
+      height: 250px;
+    }
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #202020;
+    color: white;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .footer-col {
+    flex: 1 1 300px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 1rem;
+    color: #f39c12;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-col a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-contenedor {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-col iframe {
+      height: 250px;
+    }
+  }
+  
+  
+  

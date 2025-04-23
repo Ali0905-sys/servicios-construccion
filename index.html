@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios de Construcción JP</title>
+  <!-- El favicon -->
+  <link rel="icon" href="images/logo favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/Styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.jpg" alt="Logo de Servicios de Construcción JP" class="logo" />
+      <span>Servicios de Construcción JP</span>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="tel:+50687467765">87467765 ☎</a>
+    </nav>
+  </header>
+  
+  <!-- Sección Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-image">
+      <img src="images/Casa-Tony.jpeg" alt="Foto principal" />
+      <div class="hero-text">
+        <h1>Construimos tu futuro</h1>
+        <button class="btn" id="btnHero">Ver más</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Servicios -->
+  <section id="servicios" class="section">
+    <h2>Servicios destacados</h2>
+  
+    <!-- Primera fila de tarjetas -->
+    <div class="cards">
+      <div class="card">
+        <h3>🔨 Remodelación de interiores</h3>
+        <img src="images/Remodelación de cocina.jpeg" alt="Interior">
+        <p>Remodelación de cocinas personalizadas.</p>
+      </div>
+      <div class="card">
+        <h3>🧱 Construcción de viviendas</h3>
+        <img src="images/Construcción de viviendas residenciales.jpeg" alt="residencial">
+        <p>Construcción de viviendas residenciales.</p>
+      </div>
+      <div class="card">
+        <h3>📐 Diseño arquitectónico</h3>
+        <img src="images/plano de casa.png" alt="plano">
+        <p>Diseño arquitectónico residencial.</p>
+      </div>
+    </div>
+  
+    <!-- Segunda fila de tarjetas con más espacio arriba -->
+    <div class="cards cards-bottom">
+      <div class="card">
+        <h3>🏊‍♂️ Diseño de Piscina</h3>
+        <img src="images/piscina.jpg" alt="piscina">
+        <p>Transforma tu espacio con la piscina de tus sueños.</p>
+      </div>
+      <div class="card">
+        <h3>🏚️ Remodelación de Fachadas</h3>
+        <img src="images/fachada.jpg" alt="fachada">
+        <p>Renueva la imagen de tu hogar o negocio.</p>
+      </div>
+      <div class="card">
+        <h3>🪵 Trabajos en madera</h3>
+        <img src="images/madera.jpg" alt="madera">
+        <p>Calidez y estilo en cada detalle de madera.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Por Qué Elegirnos -->
+  <section class="section porque">
+    <h2>¿Por qué elegirnos?</h2>
+    <p>Contamos con años de trayectoria en el ámbito, lo que nos permite ofrecer soluciones eficientes, seguras y adaptadas a cada cliente. Sabemos lo que hacemos y lo hacemos bien.</p>
+    <ul>
+      <li>✅ Trabajamos con materiales premium, garantizando obras duraderas y con excelente acabado.</li>
+      <li>✅ Acompañamos cada etapa del proyecto. La confianza de nuestros clientes es nuestra mejor carta de presentación.</li>
+    </ul>
+    <button class="btn" id="btnPresupuesto">Solicita presupuesto</button>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section class="section" id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tenés un proyecto en mente o querés solicitar un presupuesto? Completá el formulario y nos pondremos en contacto a la brevedad.</p>
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo" required />
+      <input type="tel" placeholder="Teléfono" required />
+      <textarea placeholder="Mensaje" rows="4"></textarea>
+      <button class="btn" type="submit">Enviar mensaje</button>
+    </form>
+    <div>
+      <p>📍 Ciudad Cortés, Osa, Puntarenas</p>
+      <p>📞 87467765</p>
+      <p>📧 juanportuguez63@gmail.com</p>
+      <p>📲 87467765</p>
+      <a href="https://maps.apple.com/?address=Calle%201,%20Osa,%20Costa%20Rica&auid=7718815369908522694&ll=8.965580,-83.522074&lsp=9902&q=Ciudad%20Cort%C3%A9s&t=m" target="_blank">📍 Ver en el mapa</a>
+    </div>
+  </section>
+
+  <!-- Sección de Testimonios -->
+  <section class="section testimonios">
+    <h2>Testimonio</h2>
+    <blockquote>​👩‍💻​Remodelaron mi casa y el trabajo quedó hermoso.</blockquote>
+    <blockquote>👨‍💻Trabajos de calidad.</blockquote>
+    <blockquote>​🧑‍💻​Empresa responsable.</blockquote>
+
+    <h3 style="margin-top: 2rem;">¡Déjanos tu Testimonio!</h3>
+    <form id="comentarioForm" action="#" method="post">
+      <textarea name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea><br><br>
+      <button type="submit">Enviar Comentario</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-contenedor">
+    <div class="footer-col">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d805.8581591901881!2d-83.52291571900238!3d8.967500049983908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1745369425329!5m2!1ses-419!2scr"
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li>🔨 Remodelación de interiores</li>
+        <li>🧱 Construcción de viviendas</li>
+        <li>📐 Diseño arquitectónico</li>
+        <li>🏊 Diseño de Piscinas</li>
+        <li>🏚️ Remodelación de Fachadas</li>
+        <li>🪵 Trabajos en madera</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <p>📍 Ciudad Cortés, Osa, Puntarenas</p>
+      <p>📞 87467765</p>
+      <p>📧 juanportuguez63@gmail.com</p>
+      <p><a href="https://wa.me/50687467765" target="_blank">📲 WhatsApp</a></p>
+      <p><a href="https://www.facebook.com/share/1ARjqptwuQ/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
+    </div>
+  </footer>
+  
+
+  <!-- Script funcional -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Navegación suave con enlaces del nav
+      document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const destino = document.querySelector(this.getAttribute('href'));
+          if (destino) {
+            destino.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+  
+      // Botón "Ver más" en la sección hero
+      const btnHero = document.getElementById('btnHero');
+      if (btnHero) {
+        btnHero.addEventListener('click', function () {
+          const servicios = document.querySelector('#servicios');
+          if (servicios) {
+            servicios.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      }
+  
+      // Botón "Solicita presupuesto" que lleva a WhatsApp
+      const btnPresupuesto = document.getElementById('btnPresupuesto');
+      if (btnPresupuesto) {
+        btnPresupuesto.addEventListener('click', function () {
+          const numero = "50687467765";
+          const mensaje = encodeURIComponent("Hola, estoy interesado en solicitar un presupuesto");
+          const url = `https://wa.me/${numero}?text=${mensaje}`;
+          window.open(url, '_blank');
+        });
+      }
+  
+      // Formulario de contacto
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          alert('Gracias por contactarnos. Nos pondremos en contacto pronto.');
+          this.reset();
+        });
+      }
+  
+      // Formulario de comentarios
+      const comentarioForm = document.getElementById('comentarioForm');
+      if (comentarioForm) {
+        comentarioForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          alert('¡Gracias por tu comentario!');
+          this.reset();
+        });
+      }
+    });
+  </script>
+  
